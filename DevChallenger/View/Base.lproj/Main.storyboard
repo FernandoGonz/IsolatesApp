@@ -134,6 +134,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cartTableView" destination="6Zn-nj-rKN" id="A1p-HJ-2X2"/>
+                        <outlet property="totalLabel" destination="fpF-tL-E77" id="dWZ-Ph-J0j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qJk-Ng-T8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

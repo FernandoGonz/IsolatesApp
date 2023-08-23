@@ -10,10 +10,11 @@ import UIKit
 class CartItem {
     
     let image: UIImage
-    let name, price, size, weight, purpose, type, padding, top, color, width, flex, stability: String
+    let name, size, weight, purpose, type, padding, top, color, width, flex, stability: String
+    let price: Double
     var isDetailed: Bool
     
-    init(image: UIImage, name: String, price: String, size: String = "F 3", weight: String = "44 lbs", purpose: String = "Casual", type: String = "Athletic", padding: String = "No Padding", top: String = "EVA", color: String, width: String = "Regular", flex: String = "Standard", stability: String = "Heel", isDetailed: Bool = false) {
+    init(image: UIImage, name: String, price: Double, size: String = "F 3", weight: String = "44 lbs", purpose: String = "Casual", type: String = "Athletic", padding: String = "No Padding", top: String = "EVA", color: String, width: String = "Regular", flex: String = "Standard", stability: String = "Heel", isDetailed: Bool = false) {
         self.image = image
         self.name = name
         self.price = price

@@ -23,9 +23,9 @@
 		4D3AFE372A957C8E00220C74 /* AddIsolateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE352A957C8D00220C74 /* AddIsolateTableViewCell.swift */; };
 		4D3AFE382A957C8E00220C74 /* AddIsolateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE362A957C8D00220C74 /* AddIsolateTableViewCell.xib */; };
 		4D3AFE3A2A9586E200220C74 /* CartItemDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE392A9586E200220C74 /* CartItemDataModel.swift */; };
-		4D3AFE452A958A6600220C74 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE422A958A6600220C74 /* Gotham-Black.otf */; };
-		4D3AFE462A958A6600220C74 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE432A958A6600220C74 /* Gotham-Bold.otf */; };
-		4D3AFE472A958A6600220C74 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE442A958A6600220C74 /* Gotham-Book.otf */; };
+		4D3AFE4B2A963F4E00220C74 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE482A963F4E00220C74 /* Gotham-Book.otf */; };
+		4D3AFE4C2A963F4E00220C74 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE492A963F4E00220C74 /* Gotham-Bold.otf */; };
+		4D3AFE4D2A963F4E00220C74 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE4A2A963F4E00220C74 /* Gotham-Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +47,9 @@
 		4D3AFE352A957C8D00220C74 /* AddIsolateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIsolateTableViewCell.swift; sourceTree = "<group>"; };
 		4D3AFE362A957C8D00220C74 /* AddIsolateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddIsolateTableViewCell.xib; sourceTree = "<group>"; };
 		4D3AFE392A9586E200220C74 /* CartItemDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemDataModel.swift; sourceTree = "<group>"; };
-		4D3AFE422A958A6600220C74 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
-		4D3AFE432A958A6600220C74 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
-		4D3AFE442A958A6600220C74 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		4D3AFE482A963F4E00220C74 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		4D3AFE492A963F4E00220C74 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		4D3AFE4A2A963F4E00220C74 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,9 +187,9 @@
 		4D3AFE3B2A9589A000220C74 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4D3AFE422A958A6600220C74 /* Gotham-Black.otf */,
-				4D3AFE432A958A6600220C74 /* Gotham-Bold.otf */,
-				4D3AFE442A958A6600220C74 /* Gotham-Book.otf */,
+				4D3AFE4A2A963F4E00220C74 /* Gotham-Black.otf */,
+				4D3AFE492A963F4E00220C74 /* Gotham-Bold.otf */,
+				4D3AFE482A963F4E00220C74 /* Gotham-Book.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -252,13 +252,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3AFE4B2A963F4E00220C74 /* Gotham-Book.otf in Resources */,
+				4D3AFE4D2A963F4E00220C74 /* Gotham-Black.otf in Resources */,
+				4D3AFE4C2A963F4E00220C74 /* Gotham-Bold.otf in Resources */,
 				4D3AFE212A95204000220C74 /* ItemTableViewCell.xib in Resources */,
-				4D3AFE462A958A6600220C74 /* Gotham-Bold.otf in Resources */,
-				4D3AFE452A958A6600220C74 /* Gotham-Black.otf in Resources */,
 				4D3AFE112A9514B300220C74 /* LaunchScreen.storyboard in Resources */,
 				4D3AFE0E2A9514B300220C74 /* Assets.xcassets in Resources */,
 				4D3AFE0C2A9514AB00220C74 /* Main.storyboard in Resources */,
-				4D3AFE472A958A6600220C74 /* Gotham-Book.otf in Resources */,
 				4D3AFE382A957C8E00220C74 /* AddIsolateTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

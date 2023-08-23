@@ -10,6 +10,7 @@ import UIKit
 class CartViewController: UIViewController {    
     
     @IBOutlet weak var cartTableView: UITableView!
+    @IBOutlet weak var totalLabel: UILabel!
     
     var cartItemManager: CartItemManager = CartItemManager()
     var cartItemDataModel: CartItemDataModel = CartItemDataModel()
@@ -18,11 +19,18 @@ class CartViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        self.totalLabel.text = self.cartItemDataModel.getTotalPriceAsString()
+        
         self.cartTableView.dataSource = self
         self.cartItemManager.delegate = self
         
         self.cartTableView.register(UINib(nibName: "ItemTableViewCell", bundle: nil), forCellReuseIdentifier: "ItemTableViewCell")
         self.cartTableView.register(UINib(nibName: "AddIsolateTableViewCell", bundle: nil), forCellReuseIdentifier: "AddIsolateTableViewCell")
+    }
+    
+    private func reloadTable() {
+        self.cartTableView.reloadData()
+        self.totalLabel.text = self.cartItemDataModel.getTotalPriceAsString()
     }
     
 }
@@ -45,7 +53,7 @@ extension CartViewController: UITableViewDataSource {
             return cell
         } else {
             let cell: AddIsolateTableViewCell = tableView.dequeueReusableCell(withIdentifier: "AddIsolateTableViewCell", for: indexPath) as! AddIsolateTableViewCell
-            
+
             cell.setup(manager: self.cartItemManager)
             
             return cell
@@ -59,23 +67,22 @@ extension CartViewController: UITableViewDataSource {
 extension CartViewController: CartItemManagerDelegate {
     
     func didUpdateItemDetail(_ cartItemManager: CartItemManager) {
-        self.cartTableView.reloadData()
+        self.reloadTable()
     }
     
     func didDuplicateItem(_ cartItemManager: CartItemManager, cartItem: CartItem) {
         let newCartItem: CartItem = CartItem(image: cartItem.image, name: cartItem.name, price: cartItem.price, color: cartItem.color)
         self.cartItemDataModel.appendNewItem(with: newCartItem)
-        self.cartTableView.reloadData()
+        self.reloadTable()
     }
     
     func didDeleteItem(_ cartItemManager: CartItemManager, at: Int) {        self.cartItemDataModel.deleteItem(at: at)
-        self.cartTableView.reloadData()
+        self.reloadTable()
     }
     
     func didAddItem(_ cartItemManager: CartItemManager) {
-        let newCartItem: CartItem = CartItem(image: UIImage(named: "Narrow-Heel-Extra-EVA-Blue.png")!, name: "Fernando's Insoles", price: "US$224.95", color: "Red")
-        self.cartItemDataModel.appendNewItem(with: newCartItem)
-        self.cartTableView.reloadData()
+        self.cartItemDataModel.addNextItem()
+        self.reloadTable()
     }
     
 }
