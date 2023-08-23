@@ -13,6 +13,19 @@
 		4D3AFE0C2A9514AB00220C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE0A2A9514AB00220C74 /* Main.storyboard */; };
 		4D3AFE0E2A9514B300220C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE0D2A9514B300220C74 /* Assets.xcassets */; };
 		4D3AFE112A9514B300220C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE0F2A9514B300220C74 /* LaunchScreen.storyboard */; };
+		4D3AFE1C2A951B6700220C74 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE1B2A951B6700220C74 /* CartViewController.swift */; };
+		4D3AFE202A95204000220C74 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE1E2A95204000220C74 /* ItemTableViewCell.swift */; };
+		4D3AFE212A95204000220C74 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE1F2A95204000220C74 /* ItemTableViewCell.xib */; };
+		4D3AFE272A95228E00220C74 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE262A95228E00220C74 /* UIView+Extension.swift */; };
+		4D3AFE2C2A95275D00220C74 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE2B2A95275D00220C74 /* CardView.swift */; };
+		4D3AFE2E2A953B0C00220C74 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE2D2A953B0C00220C74 /* CartItem.swift */; };
+		4D3AFE322A9556C900220C74 /* CartItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE312A9556C900220C74 /* CartItemManager.swift */; };
+		4D3AFE372A957C8E00220C74 /* AddIsolateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE352A957C8D00220C74 /* AddIsolateTableViewCell.swift */; };
+		4D3AFE382A957C8E00220C74 /* AddIsolateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE362A957C8D00220C74 /* AddIsolateTableViewCell.xib */; };
+		4D3AFE3A2A9586E200220C74 /* CartItemDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AFE392A9586E200220C74 /* CartItemDataModel.swift */; };
+		4D3AFE452A958A6600220C74 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE422A958A6600220C74 /* Gotham-Black.otf */; };
+		4D3AFE462A958A6600220C74 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE432A958A6600220C74 /* Gotham-Bold.otf */; };
+		4D3AFE472A958A6600220C74 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AFE442A958A6600220C74 /* Gotham-Book.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		4D3AFE0D2A9514B300220C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D3AFE102A9514B300220C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D3AFE122A9514B300220C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3AFE1B2A951B6700220C74 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		4D3AFE1E2A95204000220C74 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		4D3AFE1F2A95204000220C74 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		4D3AFE262A95228E00220C74 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4D3AFE2B2A95275D00220C74 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4D3AFE2D2A953B0C00220C74 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		4D3AFE312A9556C900220C74 /* CartItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemManager.swift; sourceTree = "<group>"; };
+		4D3AFE352A957C8D00220C74 /* AddIsolateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIsolateTableViewCell.swift; sourceTree = "<group>"; };
+		4D3AFE362A957C8D00220C74 /* AddIsolateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddIsolateTableViewCell.xib; sourceTree = "<group>"; };
+		4D3AFE392A9586E200220C74 /* CartItemDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemDataModel.swift; sourceTree = "<group>"; };
+		4D3AFE422A958A6600220C74 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		4D3AFE432A958A6600220C74 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		4D3AFE442A958A6600220C74 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,116 @@
 		4D3AFE032A9514AB00220C74 /* DevChallenger */ = {
 			isa = PBXGroup;
 			children = (
+				4D3AFE3B2A9589A000220C74 /* Fonts */,
+				4D3AFE252A95226D00220C74 /* Common */,
 				4D3AFE042A9514AB00220C74 /* AppDelegate.swift */,
 				4D3AFE062A9514AB00220C74 /* SceneDelegate.swift */,
-				4D3AFE082A9514AB00220C74 /* ViewController.swift */,
-				4D3AFE0A2A9514AB00220C74 /* Main.storyboard */,
+				4D3AFE222A95221800220C74 /* Modules */,
+				4D3AFE1D2A95200700220C74 /* CustomViews */,
+				4D3AFE182A95185600220C74 /* View */,
 				4D3AFE0D2A9514B300220C74 /* Assets.xcassets */,
 				4D3AFE0F2A9514B300220C74 /* LaunchScreen.storyboard */,
 				4D3AFE122A9514B300220C74 /* Info.plist */,
 			);
 			path = DevChallenger;
+			sourceTree = "<group>";
+		};
+		4D3AFE182A95185600220C74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE0A2A9514AB00220C74 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D3AFE1D2A95200700220C74 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE332A957C3500220C74 /* AddIsolate */,
+				4D3AFE292A95273100220C74 /* CardView */,
+				4D3AFE2A2A95274000220C74 /* Item */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		4D3AFE222A95221800220C74 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE242A95223B00220C74 /* Home */,
+				4D3AFE232A95222700220C74 /* Cart */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4D3AFE232A95222700220C74 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE1B2A951B6700220C74 /* CartViewController.swift */,
+				4D3AFE2D2A953B0C00220C74 /* CartItem.swift */,
+				4D3AFE312A9556C900220C74 /* CartItemManager.swift */,
+				4D3AFE392A9586E200220C74 /* CartItemDataModel.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		4D3AFE242A95223B00220C74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE082A9514AB00220C74 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4D3AFE252A95226D00220C74 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE282A95229A00220C74 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4D3AFE282A95229A00220C74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE262A95228E00220C74 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D3AFE292A95273100220C74 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE2B2A95275D00220C74 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		4D3AFE2A2A95274000220C74 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE1F2A95204000220C74 /* ItemTableViewCell.xib */,
+				4D3AFE1E2A95204000220C74 /* ItemTableViewCell.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		4D3AFE332A957C3500220C74 /* AddIsolate */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE352A957C8D00220C74 /* AddIsolateTableViewCell.swift */,
+				4D3AFE362A957C8D00220C74 /* AddIsolateTableViewCell.xib */,
+			);
+			path = AddIsolate;
+			sourceTree = "<group>";
+		};
+		4D3AFE3B2A9589A000220C74 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D3AFE422A958A6600220C74 /* Gotham-Black.otf */,
+				4D3AFE432A958A6600220C74 /* Gotham-Bold.otf */,
+				4D3AFE442A958A6600220C74 /* Gotham-Book.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3AFE212A95204000220C74 /* ItemTableViewCell.xib in Resources */,
+				4D3AFE462A958A6600220C74 /* Gotham-Bold.otf in Resources */,
+				4D3AFE452A958A6600220C74 /* Gotham-Black.otf in Resources */,
 				4D3AFE112A9514B300220C74 /* LaunchScreen.storyboard in Resources */,
 				4D3AFE0E2A9514B300220C74 /* Assets.xcassets in Resources */,
 				4D3AFE0C2A9514AB00220C74 /* Main.storyboard in Resources */,
+				4D3AFE472A958A6600220C74 /* Gotham-Book.otf in Resources */,
+				4D3AFE382A957C8E00220C74 /* AddIsolateTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +270,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3AFE2C2A95275D00220C74 /* CardView.swift in Sources */,
+				4D3AFE272A95228E00220C74 /* UIView+Extension.swift in Sources */,
+				4D3AFE2E2A953B0C00220C74 /* CartItem.swift in Sources */,
+				4D3AFE1C2A951B6700220C74 /* CartViewController.swift in Sources */,
 				4D3AFE092A9514AB00220C74 /* ViewController.swift in Sources */,
+				4D3AFE202A95204000220C74 /* ItemTableViewCell.swift in Sources */,
 				4D3AFE052A9514AB00220C74 /* AppDelegate.swift in Sources */,
+				4D3AFE322A9556C900220C74 /* CartItemManager.swift in Sources */,
 				4D3AFE072A9514AB00220C74 /* SceneDelegate.swift in Sources */,
+				4D3AFE372A957C8E00220C74 /* AddIsolateTableViewCell.swift in Sources */,
+				4D3AFE3A2A9586E200220C74 /* CartItemDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

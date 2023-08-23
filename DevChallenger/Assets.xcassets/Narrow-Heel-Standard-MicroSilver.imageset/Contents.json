@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Narrow-Heel-Standard-MicroSilver.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Narrow-Heel-Standard-MicroSilver@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Narrow-Heel-Standard-MicroSilver@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
